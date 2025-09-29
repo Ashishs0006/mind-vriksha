@@ -104,7 +104,7 @@ const Locations = () => {
             <div className="container mx-auto px-4">
                 <h2 className="text-3xl md:text-4xl font-bold text-center text-[#33691e] mb-12">Our Clinic Locations</h2>
                 {locationsData.map((location, index) => (
-                    <div key={index} className="flex flex-col lg:flex-row items-center bg-[#f0f9eb] rounded-xl shadow-lg p-6 sm:p-8 mb-12 lg:space-x-12 space-y-8 lg:space-y-0">
+                    <div key={index} className="flex flex-col lg:flex-row items-center bg-secondary-green rounded-xl shadow-lg p-6 sm:p-8 mb-12 lg:space-x-12 space-y-8 lg:space-y-0">
                         {/* Clinic Info (Left Side) */}
                         <div className="flex-1 w-full lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left">
                             <div className="w-full mb-6">

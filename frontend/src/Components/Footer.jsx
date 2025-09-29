@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
         <div>
           <h3 className="font-semibold text-lg mb-4">Connect</h3>
-          <p className="mb-2"><strong>Phone:</strong> +91 9310199510</p>
+          <p className="mb-2"><strong>Phone:</strong> +91 9311106989</p>
           <p className="mb-4"><strong>Email:</strong> info@mindvriksha.com</p>
           <div className="flex space-x-4 text-2xl">
             <a href="https://www.facebook.com/DrRohitGarg01/" aria-label="Facebook"><FaFacebook className="hover:text-primary-skin transition duration-200" /></a>

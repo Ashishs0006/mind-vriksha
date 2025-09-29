@@ -1,4 +1,5 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 import blogPostImg1 from '../assets/Images/Blog1.jpeg'; // Add your blog post images
 import blogPostImg2 from '../assets/Images/Blog2.jpeg';
 import blogPostImg3 from '../assets/Images/Blog3.jpeg';

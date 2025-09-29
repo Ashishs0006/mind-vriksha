@@ -11,7 +11,7 @@ function Dashboard() {
   useEffect(() => {
     let timer;
     const fetchData = () => {
-      fetch("http://localhost:4000/api/consultations")
+      fetch("https://mind-virksha-suv9.vercel.app/api/consultations")
         .then(res => res.json())
         .then(setSubmissions);
       timer = setTimeout(fetchData, 3000);

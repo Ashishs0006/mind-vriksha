@@ -13,7 +13,6 @@ app.use(cors({
 app.use(express.json());
 
 // ===== MongoDB Connect =====
-
 mongoose.connect(process.env.MONGODB_RMOTE_URL)
   .then(() => console.log('MongoDB connected!'))
   .catch(err => console.error('MongoDB connect error:', err));

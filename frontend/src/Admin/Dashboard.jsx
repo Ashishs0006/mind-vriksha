@@ -31,7 +31,7 @@ function Dashboard() {
   };
 
   const confirmDelete = () => {
-    fetch(`http://localhost:4000/api/consultations/${deletingId}`, {
+    fetch(`https://mind-virksha-suv9.vercel.app/api/consultations/${deletingId}`, {
       method: 'DELETE',
     })
       .then(res => res.json())

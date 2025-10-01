@@ -86,47 +86,6 @@ const TestimonialCard = ({ testimonial, baseHeight }) => {
   );
 };
 
-// const Testimonials = () => {
-//   const settings = {
-//     dots: true,
-//     infinite: true,
-//     speed: 500,
-//     slidesToShow: 3,
-//     slidesToScroll: 1,
-//     autoplay: true,
-//     autoplaySpeed: 5000,
-//     responsive: [
-//     {
-//       breakpoint: 1280, // Large desktops
-//       settings: {
-//         slidesToShow: 3,
-//         slidesToScroll: 1,
-//       },
-//     },
-//     {
-//       breakpoint: 1024, // Tablets
-//       settings: {
-//         slidesToShow: 2,
-//         slidesToScroll: 1,
-//       },
-//     },
-//     {
-//       breakpoint: 768, // Mobiles (landscape)
-//       settings: {
-//         slidesToShow: 1,
-//         slidesToScroll: 1,
-//       },
-//     },
-//     {
-//       breakpoint: 480, // Small mobiles (portrait)
-//       settings: {
-//         slidesToShow: 1,
-//         slidesToScroll: 1,
-//       },
-//     },
-//     ]
-//   };
-
 const Testimonials = () => {
   const settings = {
     dots: true,

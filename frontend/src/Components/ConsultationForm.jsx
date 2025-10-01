@@ -165,7 +165,7 @@ export default function ConsultationForm() {
         <textarea
           {...register("message")}
           className="w-full px-2 py-1 border rounded focus:outline-none"
-          rows={4}
+          rows={2}
           placeholder="Your message"
         />
         <p className="text-red-500">{errors.message?.message}</p>

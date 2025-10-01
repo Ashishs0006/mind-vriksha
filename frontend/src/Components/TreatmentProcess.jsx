@@ -70,7 +70,7 @@ const TreatmentProcess = () => {
 
         const interval = setInterval(() => {
             handleScroll('right');
-        }, 500); // 5 seconds autoplay speed
+        }, 5000); // 5 seconds autoplay speed
         
         return () => clearInterval(interval);
     }, [isHovered, currentIndex]);

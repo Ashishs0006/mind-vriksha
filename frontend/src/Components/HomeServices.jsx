@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaUserMd, FaComments, FaHeartbeat } from 'react-icons/fa';
+import { MdAssignmentTurnedIn, MdGroups, MdAutorenew } from 'react-icons/md';
 import psychiatryImg from '../assets/Images/PsychiatryServices.png';
 import therapyImg from '../assets/Images/TherapyCounseling.png';
 import addictionImg from '../assets/Images/Addiction.png';
@@ -29,10 +30,16 @@ const popularServices = [
   },
   {
     name: 'Psychodiagnostics Evaluations',
-    description: 'IQ, ADHD, Autism, Specific Learning Disorders (SLD), Personality Profiling',
+    description: (<ul className='text-justify'>
+    <li>• IQ</li>
+    <li>• ADHD</li>
+    <li>• Autism</li>
+    <li>• Specific Learning Disorders (SLD)</li>
+    <li>• Personality Profiling</li>
+  </ul>),
     image: addictionImg,
     link: '#',
-    Icon: FaHeartbeat,
+    Icon: MdAssignmentTurnedIn,
   }
 ];
 

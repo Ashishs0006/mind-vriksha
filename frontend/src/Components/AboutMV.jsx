@@ -4,7 +4,7 @@ import AboutUsMV from '../assets/Images/About.png';
 const AboutUs = () => {
     return (
         <section id="About" className="py-24 bg-secondary-green">
-            <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
+            <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-100">
                 {/* <div className="md:w-1/2">
                     <img
                         src={AboutUsMV}
@@ -12,9 +12,9 @@ const AboutUs = () => {
                         className="rounded-lg shadow-xl w-full h-full object-cover"
                     />
                 </div> */}
-                <div className="md:w-2/2">
+                <div className="md:w-2/2 text-justify">
                     <h2 className="text-3xl md:text-4xl font-bold text-primary-green text-center mb-6">About Mind Vriksha</h2>
-                    <p className="text-gray-700 text-lg mb-4">
+                    <p className="text-gray-700 text-justify text-lg mb-4">
                        Mind Vriksha is a chain of mental health clinics. It was founded in 2012 by Dr. Rohit Garg with a simple yet powerful idea: to make quality and compassionate mental health care accessible and stigma-free.
                     </p>
                     <p className="text-gray-700 text-lg mb-4">

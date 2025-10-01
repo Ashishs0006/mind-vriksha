@@ -25,13 +25,13 @@ const locationsData = [
       {
         image: DrRohit,
         name: 'Dr. Rohit Garg',
-        designation: 'Senior Psychiatrist',
+        designation: 'Senior Consultant Psychiatrist',
         bio: 'Dr. Rohit Garg, a distinguished psychiatrist, has impacted over 200,000 lives, more than half through charitable initiatives. Trained at AIIMS Delhi, he founded MindVriksha, a renowned clinic in South Delhi, and Ganaa, a rehabilitation chain with centers in Delhi, Gurgaon, Noida, and Goa. He now aims to expand both nationwide, bridging the gap in quality mental health care with compassion and expertise. His contributions have earned him top honors, including Mahatma Gandhi Samman at House of Lords London, Best Doctor Award by Medgate, International Mind Health Ambassador by Oxford University UK, and the Rajiv Gandhi Rashtriya Ekta Samman. An avid adventurer he has biked across ladakh and climbed Mount Kilimanjaro, Mount Everest Base camp and frozen river Chader trek in Ladakh.',
       },
       {
         image: DrSaurabh,
         name: 'Dr. Saurabh Avi',
-        designation: 'Clinical Psychiatrist',
+        designation: 'Consultant Psychiatrist',
         bio: 'Dr. Saurabh Avi is a skilled psychiatrist with over five years of experience, holding an MBBS from UCMS, New Delhi, and an MD in Psychiatry from Lady Hardinge Medical College, where he also served as a senior resident. He has authored over 10 publications, presented widely at national and international conferences, and contributed significantly to psychiatric research and patient care. Dr. Avi has pursued specialized training in psychosexual medicine, child and adolescent psychiatry, and neurofeedback therapy, enhancing his ability to offer comprehensive and personalized treatment. His clinical interests include mood and anxiety disorders, sexual health, and neurodevelopmental conditions. Known for his empathetic and evidence-based approach, he is dedicated to promoting mental wellness across all age groups. Beyond his medical profession, Dr. Avi is an avid sports enthusiast and a talented painter, reflecting his belief in the healing power of physical activity and creative expression.',
       },
     ],
@@ -45,7 +45,7 @@ const locationsData = [
       {
         image: DrSurabhi,
         name: 'Dr. Surabhi Sharma',
-        designation: 'Clinical Psychiatrist',
+        designation: 'Consultant Psychiatrist',
         bio: 'Dr. Surabhi Sharma is a board-certified psychiatrist with extensive experience in diagnosing and treating a wide range of psychiatric conditions. She completed her MBBS and MD in Psychiatry at Lady Hardinge Medical College, New Delhi, where she also served as a Senior Resident, providing inpatient and outpatient care, supervising trainees, and handling emergency psychiatry cases. Trained in CBT, Supportive Therapy, Motivational Interviewing, and MET, she integrates both psychopharmacology and psychotherapy into her patient-centered approach. Dr. Sharma has presented and published research on topics including sexual dysfunction in depression, tardive dyskinesia, and substance withdrawal. A member of the Indian Psychiatric Society, she is fluent in English and Hindi, offering culturally sensitive, evidence-based mental health care.',
       },
     ],
@@ -59,7 +59,7 @@ const locationsData = [
       {
         image: DrPriyanka,
         name: 'Dr. Priyanka Kanjilal',
-        designation: 'Counseling Psychiatrist',
+        designation: 'Consultant Psychiatrist',
         bio: 'Dr. Priyanka Kanjilal delivers expert, compassionate psychiatric care in Greater Noida West Extension, with specialization in a wide range of conditions including anxiety, depression, addiction, bipolar disorder, OCD, sleep and sexual disorders, as well as child, adolescent, and geriatric mental health concerns like ADHD, autism, learning disorders, dementia, and late-onset depression. She addresses complex emotional and interpersonal challenges such as marital discord and adjustment issues through a personalized, evidence-based approach. The clinic provides a safe, confidential environment focused on holistic healing, emotional resilience, and long-term mental well-being.',
       },
     ],

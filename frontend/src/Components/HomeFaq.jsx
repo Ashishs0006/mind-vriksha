@@ -2,25 +2,25 @@ import React, { useState } from 'react';
 import { FaPlus, FaMinus } from 'react-icons/fa';
 
 const faqs = [
-  {
-    question: "Is therapy confidential?",
-    answer: "Yes, all sessions are 100% confidential and private. Your personal details and conversations remain secure with your therapist.",
+   {
+    question: "How do I know if I need to consult Psychiatrist / Therapist?",
+    answer: "If you’ve been feeling overwhelmed, anxious, low, or struggling to cope with daily life, therapy can help. You don’t need to wait for a crisis to seek support.",
   },
   {
     question: "How do I book a session?",
     answer: "You can book directly through our website, call our clinic, or message us on WhatsApp. We will confirm your appointment within 24 hours.",
   },
   {
-    question: "Do you offer online therapy?",
-    answer: "Yes, we provide both in-person and online sessions, so you can choose whichever is more convenient and comfortable for you.",
+    question: "Is therapy confidential?",
+    answer: "Yes, all sessions are 100% confidential and private. Your personal details and conversations remain secure with your therapist.",
   },
   {
     question: "What can I expect in my first session?",
-    answer: "Your first session is mainly about understanding your concerns, background, and goals. It’s a safe space to share your story, and your therapist will guide you on the next steps.",
+    answer: "Your first session is about getting to know you—your concerns, background, and goals. The therapist will explain how therapy works and together you’ll outline a plan. It’s a safe, confidential space with no pressure to share more than you’re comfortable with.",
   },
   {
-    question: "How do I know if I need therapy?",
-    answer: "If you’ve been feeling overwhelmed, anxious, low, or struggling to cope with daily life, therapy can help. You don’t need to wait for a crisis to seek support.",
+    question: "Do you offer online consultation?",
+    answer: "Yes, we provide both in-person and online sessions, so you can choose whichever is more convenient and comfortable for you.",
   },
     {
     question: "Do you work with children, couples, and families?",

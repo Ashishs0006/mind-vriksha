@@ -14,7 +14,7 @@ const disorders = [
         Icon: GiLaurelCrown,
     },
     {
-        title: 'Excellant Treatment',
+        title: 'Excellent Treatment',
         description: 'Led by Dr. Rohit Garg, one of India’s most respected psychiatrists, we blend clinical excellence with deep empathy. Patients worldwide trust us to deliver the best outcomes, even in the most complex cases.',
         image: Legacy,
         Icon: FaUserMd,

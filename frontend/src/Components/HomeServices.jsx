@@ -15,14 +15,21 @@ const popularServices = [
   },
   {
     name: 'Therapy & Counselling',
-    description: 'Personalized sessions with evidence-based methods like CBT, DBT, trauma care and Neurofeedback. We also offer cutting-edge Neurofeedback Technology for therapy.',
+    description: 'We offer personalized sessions using evidence-based approaches such as CBT, DBT, trauma-focused care, etc and advanced Neurofeedback technology for holistic and effective therapy.',
     image: therapyImg,
     link: '#',
     Icon: FaComments,
   },
   {
     name: 'De-addiction & Wellness',
-    description: 'Comprehensive De-Addiction program leveraging medical support, therapy and Holistic wellness therapy.',
+    description: 'Our De-addiction and Wellness Program offers medical detox, 12-step support, and holistic care to promote lasting recovery and prevent relapse.',
+    image: addictionImg,
+    link: '#',
+    Icon: FaHeartbeat,
+  },
+  {
+    name: 'Psychodiagnostics Evaluations',
+    description: 'IQ, ADHD, Autism, Specific Learning Disorders (SLD), Personality Profiling',
     image: addictionImg,
     link: '#',
     Icon: FaHeartbeat,
@@ -34,7 +41,7 @@ const PopularServices = () => {
     <section id="Service" className="py-24 bg-light-green">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-primary-green mb-12">Our Key Services</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {popularServices.map((service, index) => (
             <div key={index} className="bg-secondary-green p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
               {/* <img

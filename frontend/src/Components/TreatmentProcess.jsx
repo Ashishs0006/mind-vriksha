@@ -12,14 +12,14 @@ const steps = [
     {
         number: 1,
         title: 'Comprehensive Case History & Assessment ',
-        description: 'We begin with an in-depth case history, not just noting symptoms but also understanding family background, lifestyle, and personal experiences. This holistic approach ensures nothing important is overlooked.',
+        description: 'We begin with a detailed case history that considers symptoms, family background, lifestyle, and personal experiences. This comprehensive approach ensures an accurate diagnosis and a tailored treatment plan.',
         image: Treatment1,
         Icon: FaClipboardList,
     },
     {
         number: 2,
         title: 'Accurate Diagnosis & Individualized Plan',
-        description: 'Our team carefully evaluates your symptoms and designs a personalized plan that may include therapy, medication, or both. Each plan is unique — no “one-size-fits-all” approach.',
+        description: 'Our team conducts a thorough evaluation to develop a personalized treatment plan, which may include therapy, medication, or a combination of both, tailored to each individuals needs.',
         image: Treatment2,
         Icon: FaMicroscope,
     },
@@ -33,14 +33,14 @@ const steps = [
     {
         number: 4,
         title: 'Continuous Monitoring & OPD Follow-Ups',
-        description: 'We track your progress through structured OPD follow-ups, adjusting treatment as needed. Our continuity of care ensures long-term stability and prevents relapse.',
+        description: 'We monitor your progress through regular outpatient follow-ups, adjusting treatment as necessary to ensure sustained stability and prevent relapse.',
         image: Treatment4,
         Icon: FaHeartbeat,
     },
     {
         number: 5,
         title: 'Recovery & Life Skills ',
-        description: 'Beyond symptom control, we focus on recovery— helping you build coping skills, emotional resilience, and strategies for real-world challenges.',
+        description: 'Our approach extends beyond symptom management to support recovery by enhancing coping skills, emotional resilience, and practical strategies for everyday challenges.',
         image: Treatment5,
         Icon: FaRegSmileBeam,
     },
@@ -70,7 +70,7 @@ const TreatmentProcess = () => {
 
         const interval = setInterval(() => {
             handleScroll('right');
-        }, 1000); // 5 seconds autoplay speed
+        }, 500); // 5 seconds autoplay speed
         
         return () => clearInterval(interval);
     }, [isHovered, currentIndex]);

@@ -188,7 +188,7 @@ export default function ConsultationForm() {
         
         {/* Email Field */}
         <div className="flex flex-col md:flex-row md:items-center mb-4">
-          <label className="block md:w-1/3 font-semibold mb-2 md:mb-0 pr-4 text-gray-700">Email (Optional)</label>
+          <label className="block md:w-1/3 font-semibold mb-2 md:mb-0 pr-4 text-gray-700">Email</label>
           <div className="md:w-2/3">
             <input
               {...register("email")}
@@ -202,7 +202,7 @@ export default function ConsultationForm() {
         
         {/* Message Field */}
         <div className="flex flex-col md:flex-row md:items-start mb-4">
-          <label className="block md:w-1/3 font-semibold mb-2 md:mb-0 pr-4 text-gray-700">Message (Optional)</label>
+          <label className="block md:w-1/3 font-semibold mb-2 md:mb-0 pr-4 text-gray-700">Message</label>
           <div className="md:w-2/3">
             <textarea
               {...register("message")}

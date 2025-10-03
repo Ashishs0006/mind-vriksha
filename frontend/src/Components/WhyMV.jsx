@@ -21,7 +21,7 @@ const disorders = [
     },
     {
         title: 'Culture of Innovation',
-        description: 'Recovery through AI Neurofeedback technology and wearable devices, we empowers clients to monitor progress and major steps towards recovery.',
+        description: 'Through AI-driven neurofeedback technology and wearable devices, we empower clients to actively monitor their progress and track key milestones on their path to recovery.',
         image: Innovating,
         Icon: GiArtificialIntelligence,
     },

@@ -9,7 +9,7 @@ import { Icon } from 'lucide-react';
 const popularServices = [
   {
     name: 'Psychiatry Services',
-    description: 'Expert diagnosis & medication management by leading psychiatrists.',
+    description: 'Our leading psychiatrists deliver comprehensive psychiatric care with expert diagnosis and precise medication management.',
     image: psychiatryImg,
     link: '#', // Replace with the actual link to the service page
     Icon: FaUserMd,
@@ -28,19 +28,19 @@ const popularServices = [
     link: '#',
     Icon: FaHeartbeat,
   },
-  {
-    name: 'Psychodiagnostics Evaluations',
-    description: (<ul className='text-justify'>
-    <li>• IQ</li>
-    <li>• ADHD</li>
-    <li>• Autism</li>
-    <li>• Specific Learning Disorders (SLD)</li>
-    <li>• Personality Profiling</li>
-  </ul>),
-    image: addictionImg,
-    link: '#',
-    Icon: MdAssignmentTurnedIn,
-  }
+  // {
+  //   name: 'Psychodiagnostics Evaluations',
+  //   description: (<ul className='text-justify'>
+  //   <li>• IQ</li>
+  //   <li>• ADHD</li>
+  //   <li>• Autism</li>
+  //   <li>• Specific Learning Disorders (SLD)</li>
+  //   <li>• Personality Profiling</li>
+  // </ul>),
+  //   image: addictionImg,
+  //   link: '#',
+  //   Icon: MdAssignmentTurnedIn,
+  // }
 ];
 
 const PopularServices = () => {
@@ -48,7 +48,7 @@ const PopularServices = () => {
     <section id="Service" className="py-24 bg-light-green">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-primary-green mb-12">Our Key Services</h2>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {popularServices.map((service, index) => (
             <div key={index} className="bg-secondary-green p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
               {/* <img
